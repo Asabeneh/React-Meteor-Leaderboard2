@@ -8,7 +8,7 @@ export default class PlayersBoard extends React.Component{
   render(){
     return(
     <div>
-       <TitleBar title = {this.props.title} subtitle = "Created by Asabeneh"/>
+       <TitleBar title = {this.props.title} subtitle = "React Meteor Web Application"/>
       <div className = "wrapper">
         <PlayerList players = {this.props.players}/>
          <AddPlayer/>
