@@ -1,2 +1,2 @@
-# react-meteor-leaderboard
-[Demo](https://asab-react.herokuapp.com/)
+# Blaze-meteor-leaderboard
+[Demo](https://asab-blaze.herokuapp.com/)
