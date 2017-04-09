@@ -1,0 +1,21 @@
+{
+  "name": "Meteor-React-Leaderboard",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.18.0",
+    "bootstrap": "^3.3.7",
+    "fontawesome": "^4.7.2",
+    "meteor-node-stubs": "~0.2.0",
+    "moment": "^2.18.1",
+    "numeral": "^2.0.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-flip-move": "^2.9.1",
+    "react-fontawesome": "^1.5.0",
+    "react-router": "^4.0.0"
+  },
+  "engines": "4.7.3"
+}
