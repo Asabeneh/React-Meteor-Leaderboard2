@@ -5,7 +5,6 @@ export default class Player extends React.Component{
 render(){
   let itemClassName = `item item--position-${this.props.player.rank}`;
   return(
-
   <div key = {this.props.player._id} className = {itemClassName}>
     <div className = "player">
     <div className="player__stats">
@@ -15,9 +14,7 @@ render(){
       </p>
       <span>{this.props.player.createdAt}</span>
     </div>
-
     <div className = "player__actions">
-
       <button className = "button button__round add__button" onClick = {()=>Players.update({_id:this.props.player._id},{$inc:{score:1}})}>+
       <i className="fa fa-plus fa-2x" aria-hidden="true"></i>
       </button>
@@ -29,7 +26,7 @@ render(){
 
     </div>
   </div>
-  
+
   );
 }
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import {Players} from './../api/players';
 import moment from 'moment';
-
 export default class AddPlayer extends React.Component{
   handleSubmit(e){
     e.preventDefault();
@@ -10,7 +9,6 @@ export default class AddPlayer extends React.Component{
     if(playerName){
       e.target.playerName.value = "";
       e.target.playerValue.value = "";
-
       Players.insert({
         name:playerName,
         score:Number(playerValue),

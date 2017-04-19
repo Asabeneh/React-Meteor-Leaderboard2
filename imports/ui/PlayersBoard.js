@@ -1,9 +1,7 @@
 import React from 'react';
-
 import TitleBar from './TitleBar';
 import AddPlayer from './AddPlayer';
 import PlayerList from './PlayerList';
-
 export default class PlayersBoard extends React.Component{
   render(){
     return(
@@ -20,5 +18,4 @@ export default class PlayersBoard extends React.Component{
 PlayersBoard.propTypes = {
 title:React.PropTypes.string.isRequired,
 players:React.PropTypes.array.isRequired,
-
 }
